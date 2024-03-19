@@ -1,7 +1,13 @@
-def h_world():
-    print('Hello World')
-h_world()
+class World:
 
-def b_world():
-    print('Bye World')
-b_world
+
+    def hello(self):
+        print('Hello World!')
+
+    def bye(self):
+        print('Bye World!')
+
+
+world = World()
+world.hello()
+world.bye()
