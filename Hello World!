@@ -1,3 +1,7 @@
-def world():
-  print('Hello World')
-world()
+def h_world():
+    print('Hello World')
+h_world()
+
+def b_world():
+    print('Bye World')
+b_world
